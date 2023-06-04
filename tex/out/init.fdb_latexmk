@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1685911585 "out/init.dvi" "out/init.pdf" "out/init" 1685911586 0
-  "out/init.dvi" 1685911585 13756 2510aa6d13a377329294efaed5ae960d "latex"
+["dvipdf"] 1685912332 "out/init.dvi" "out/init.pdf" "out/init" 1685912333 0
+  "out/init.dvi" 1685912332 12588 94a9d171afa09abb54ad9313e2f20cd4 "latex"
   (generated)
   "out/init.pdf"
   (rewritten before read)
-["latex"] 1685911583 "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" "out/init.dvi" "init" 1685911586 0
+["latex"] 1685912330 "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" "out/init.dvi" "init" 1685912333 0
   "../Figs/airplane.png" 1339341605 14500 624fd04563153f96922965b1d59d6732 ""
   "../Figs/apple.png" 1685894427 20342 18b78a20938a467af820ea7f39640f48 ""
   "../Figs/dijkstra.png" 1685859709 131634 10623844888895865e2f6c1468558908 ""
@@ -14,7 +14,7 @@
   "../Figs/helix.png" 1685883738 30423 538831e9d91d69950cfea8b98923c15f ""
   "../Figs/red-helix.png" 1685222318 110726 02fb45f1fdfc95e4900484122269e461 ""
   "../Figs/teapot.png" 1339341613 27019 5272c266d04fbd277bfeab4ec50f8a92 ""
-  "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" 1685911582 9881 ec97448f7d669246d2821fba13db4046 ""
+  "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" 1685912328 8968 d5136bc5bebbcc696a7216e387f8147b ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1681536523 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1681536807 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1681536807 468 53f854284f6afa6c36aaa2d1090ecc12 ""
@@ -81,10 +81,10 @@
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681536493 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/web2c/eptex/platex.fmt" 1681536889 6578219 ed33fdd9b4cc9bb5472bf5522d493277 ""
   "c:/texlive/2023/texmf.cnf" 1681536610 801 1c642d441d025ac3a1e223d8d9feb6db ""
-  "init.tex" 1685911582 9881 ec97448f7d669246d2821fba13db4046 ""
+  "init.tex" 1685912328 8968 d5136bc5bebbcc696a7216e387f8147b ""
   "out/../Figs/dijkstra.png" 1685859709 131634 10623844888895865e2f6c1468558908 ""
   "out/../Figs/helix.png" 1685883738 30423 538831e9d91d69950cfea8b98923c15f ""
-  "out/init.aux" 1685911585 3085 7fa673022c80ad4e69bb56bd5473d3dd "latex"
+  "out/init.aux" 1685912332 2979 ce308f74c41e61c90f7443701c51e44d "latex"
   (generated)
   "out/init.aux"
   "out/init.dvi"

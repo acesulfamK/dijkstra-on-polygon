@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.4.15)  5 JUN 2023 05:46
+This is e-pTeX, Version 3.141592653-p4.1.0-230214-2.6 (utf8.sjis) (TeX Live 2023) (preloaded format=platex 2023.4.15)  5 JUN 2023 05:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,9 +268,9 @@ LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 6.72699pt on input line 89.
 LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
 (Font)              scaled to size 4.805pt on input line 89.
-[5]
 File: ../Figs/red-helix.png Graphic file (type bmp)
 <../Figs/red-helix.png>
+[5]
 File: ../Figs/helix-0to634-endpoints.png Graphic file (type bmp)
 <../Figs/helix-0to634-endpoints.png>
 [6]
@@ -293,4 +293,4 @@ Here is how much of TeX's memory you used:
  19 hyphenation exceptions out of 8191
  55i,8n,62p,337b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/init.dvi (11 pages, 13756 bytes).
+Output written on out/init.dvi (11 pages, 12588 bytes).
