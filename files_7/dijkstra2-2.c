@@ -63,6 +63,18 @@ void DijkstraMatrix(int p, int size)
 			}
 		}
 	}
+
+	for (i = 0; i < size; i++)
+	{
+		int j;
+		if (i != p)
+		{
+			printf("%d ", i);
+			for (j = prev[i]; j != p; j = prev[j])
+				printf("%d ", j);
+		}
+		printf("%d\n", p);
+	}
 }
 void DijkstraMatrix_All(int size)
 {
@@ -83,91 +95,17 @@ void DijkstraMatrix_All(int size)
 		exit(1);
 	}
 	counter_update = 0;
-
-	int j;
 	for (i = 0; i < size; i++)
-	{
 		DijkstraMatrix(i, size);
-
-		for (j = 0; j < size; j++)
-
-		{
-			int k;
-			if (j != i)
-			{
-				//				printf("%d ", j);
-				for (k = prev[j]; k != i; k = prev[k])
-				{
-					if (k == -1)
-					{
-						//						printf("Not path-connected!\n");
-						break;
-					}
-					else
-					{
-						//						printf("%d ", k);
-					}
-				}
-			}
-			//			printf("%d\n", k);
-		}
-	}
-
 	printf("Cost = %ld\n", counter_update / size);
 	free(dist);
 	free(prev);
 	free(visited);
 }
-
-void Min_Path(int s, int g, int size)
-{
-	int i;
-	if ((dist = malloc(sizeof(int) * size)) == NULL)
-	{
-		printf("Cannot allocate memory \n");
-		exit(1);
-	}
-	if ((prev = malloc(sizeof(int) * size)) == NULL)
-	{
-		printf("Cannot allocate memory \n");
-		exit(1);
-	}
-	if ((visited = malloc(sizeof(int) * size)) == NULL)
-	{
-		printf("Cannot allocate memory \n");
-		exit(1);
-	}
-	counter_update = 0;
-	DijkstraMatrix(g, size);
-
-	int j;
-	if (s != g)
-	{
-		printf("%d ", s);
-		for (j = prev[s]; j != g; j = prev[j])
-			if (j == -1)
-			{
-				printf("Not path-connected!");
-				break;
-			}
-			else
-			{
-				printf("%d ", j);
-			}
-	}
-	printf("%d\n", g);
-
-	printf("Cost = %ld\n", counter_update);
-	free(dist);
-	free(prev);
-	free(visited);
-}
-
 int main(int argc, char *argv[])
 {
 	FILE *fp;
 	int i, j, n;
-	int s, g;
 	char buf[BUF_SIZE];
 	char command;
 	if (argc != 2)
@@ -214,7 +152,6 @@ int main(int argc, char *argv[])
 
 	printf("[d]       Display Graph\n");
 	printf("[m]       Dijkstra Algorithm (Matrix)\n");
-	printf("[s]       Search Path\n");
 	printf("[e]       Exit\n");
 	for (;;)
 	{
@@ -227,10 +164,6 @@ int main(int argc, char *argv[])
 		case 'm':
 			DijkstraMatrix_All(n);
 			break;
-		case 's':
-			printf("Input start and goal.\n");
-			scanf("%d %d", &s, &g);
-			Min_Path(s, g, n);
 		case 'e':
 			Clear(n);
 			return 0;

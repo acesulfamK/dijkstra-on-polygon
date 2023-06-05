@@ -88,8 +88,9 @@ void DijkstraPQ(int p, int size)
 	{
 		struct node *n;
 		int u = PQ_RemoveMin();
-		
-		if(dist[u] == INT_MAX){/* Not path-connected*/
+
+		if (dist[u] == INT_MAX)
+		{ /* Not path-connected*/
 			return;
 		}
 
@@ -129,16 +130,19 @@ void Min_Path(int s, int p, int size)
 	int k;
 	if (s != p)
 	{
-//		printf("%d ", s);
+		printf("%d ", s);
 		for (k = prev[s]; k != p; k = prev[k])
-			if(k == -1){
-//				printf("Not path-connected!\n");
+			if (k == -1)
+			{
+				printf("Not path-connected!\n");
 				break;
-			}else{
-//				printf("%d ", k);
+			}
+			else
+			{
+				printf("%d ", k);
 			}
 	}
-//	printf("%d\n", p);
+	printf("%d\n", p);
 
 	free(dist);
 	free(prev);
@@ -167,18 +171,21 @@ void DijkstraPQ_All(int size)
 			int j;
 			if (k != i)
 			{
-//				printf("%d ", k);
+				//				printf("%d ", k);
 				for (j = prev[k]; j != i; j = prev[j])
 				{
-					if(j == -1){
-//						printf("Not path-connected!\n");
+					if (j == -1)
+					{
+						//						printf("Not path-connected!\n");
 						break;
-					}else {
-//						printf("%d ", j);
+					}
+					else
+					{
+						//						printf("%d ", j);
 					}
 				}
 			}
-//			printf("%d\n", i);
+			//			printf("%d\n", i);
 		}
 	}
 	printf("Cost = (Num of heap update %ld) * O(log V)\n", counter_heap / size);

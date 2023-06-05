@@ -1,21 +1,13 @@
 # Fdb version 4
-["dvipdf"] 1685912332 "out/init.dvi" "out/init.pdf" "out/init" 1685912333 0
-  "out/init.dvi" 1685912332 12588 94a9d171afa09abb54ad9313e2f20cd4 "latex"
+["dvipdf"] 1685884374 "out/report.dvi" "out/report.pdf" "out/report" 1685884375 0
+  "out/report.dvi" 1685884374 4164 cbdef8e316b20c88f1b0a9b9685d516b "latex"
   (generated)
-  "out/init.pdf"
+  "out/report.pdf"
   (rewritten before read)
-["latex"] 1685912330 "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" "out/init.dvi" "init" 1685912333 0
-  "../Figs/airplane.png" 1339341605 14500 624fd04563153f96922965b1d59d6732 ""
-  "../Figs/apple.png" 1685894427 20342 18b78a20938a467af820ea7f39640f48 ""
+["latex"] 1685884374 "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/report.tex" "out/report.dvi" "report" 1685884375 0
   "../Figs/dijkstra.png" 1685859709 131634 10623844888895865e2f6c1468558908 ""
-  "../Figs/helix-0to634-1.png" 1685228308 103249 e96d3f8c66fe7b5e57eaf012029db4ec ""
-  "../Figs/helix-0to634-2.png" 1685228369 60673 dfdaaf318f891f7874f7e16a9f97842d ""
-  "../Figs/helix-0to634-endpoints.png" 1685228280 72945 8274a532d18b44b0965fd4f212889432 ""
   "../Figs/helix.png" 1685883738 30423 538831e9d91d69950cfea8b98923c15f ""
-  "../Figs/red-helix.png" 1685222318 110726 02fb45f1fdfc95e4900484122269e461 ""
-  "../Figs/teapot.png" 1339341613 27019 5272c266d04fbd277bfeab4ec50f8a92 ""
-  "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/init.tex" 1685912328 8968 d5136bc5bebbcc696a7216e387f8147b ""
-  "c:/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1681536523 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
+  "c:/Users/c4h4k/OneDrive - keio.jp/univ/algo2/graph/tex/report.tex" 1685884372 2852 80f8f336ed9081b383ec173aa2ed5a86 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jis.tfm" 1681536807 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm" 1681536807 468 53f854284f6afa6c36aaa2d1090ecc12 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1681536807 856 7404843a5f798859944d7973a47821d5 ""
@@ -81,12 +73,12 @@
   "c:/texlive/2023/texmf-dist/web2c/texmf.cnf" 1681536493 40967 d940221f8762fd5848760382d97d1226 ""
   "c:/texlive/2023/texmf-var/web2c/eptex/platex.fmt" 1681536889 6578219 ed33fdd9b4cc9bb5472bf5522d493277 ""
   "c:/texlive/2023/texmf.cnf" 1681536610 801 1c642d441d025ac3a1e223d8d9feb6db ""
-  "init.tex" 1685912328 8968 d5136bc5bebbcc696a7216e387f8147b ""
   "out/../Figs/dijkstra.png" 1685859709 131634 10623844888895865e2f6c1468558908 ""
   "out/../Figs/helix.png" 1685883738 30423 538831e9d91d69950cfea8b98923c15f ""
-  "out/init.aux" 1685912332 2979 ce308f74c41e61c90f7443701c51e44d "latex"
+  "out/report.aux" 1685884374 1100 3cf30b7e91e73dc4ba3ac9c576109985 "latex"
+  "report.tex" 1685884372 2852 80f8f336ed9081b383ec173aa2ed5a86 ""
   (generated)
-  "out/init.aux"
-  "out/init.dvi"
-  "out/init.log"
+  "out/report.aux"
+  "out/report.dvi"
+  "out/report.log"
   (rewritten before read)
