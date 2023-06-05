@@ -3,9 +3,9 @@ Ito Takeru
 
 # 実行方法
 
-1.  make-graph.ipynbを用いて、plyファイルからグラフデータを保存したtxtファイルを得る
+1.  make-graph.ipynbを用いて、PLYファイルからグラフデータを保存したtxtファイルを得る
 
-    make-graph.ipynbのコード内でPlYファイルのpathを代入する変数と、出力ファイルのpathとファイル名を指定する変数があるので、代入して実行。
+    make-graph.ipynbのコード内でPLYファイルのpathを代入する変数と、出力ファイルのpathとファイル名を指定する変数があるので、代入して実行。
 
 
 2. ダイクストラ法のc言語プログラムの第一引数にtxtファイルへのpathを指定して、dijkstra1-path.cを実行して、最短経路を出す。
