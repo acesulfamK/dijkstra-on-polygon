@@ -39,3 +39,40 @@ Ito Takeru
     route = [20,26,32,211,209,207,299,300]
     ```
 
+# 結果
+
+## 例1
+
+元データ画像
+
+<image src = "./Figs/helix.png" width = 300>
+
+citation: FSU. PLY Files an ASCII Polygon Format https://people.sc.fsu.edu/~jburkardt/
+
+グラフ化
+
+<image src = "./Figs/helix-0to634-endpoints.png" width = 300>
+
+最短路
+
+<image src = "./Figs/helix-0to634-2.png" width = 300>
+
+## 例2
+
+元データ画像
+
+
+<image src = "./Figs/apple.png" width = 300>
+
+citation: FSU. PLY Files an ASCII Polygon Format https://people.sc.fsu.edu/~jburkardt/
+data/ply/ply.html
+
+グラフ化
+
+<image src = "./Figs/apple-graph.png" width = 300>
+
+最短路
+
+<image src = "./Figs/apple-path.png" width = 300>
+
+
