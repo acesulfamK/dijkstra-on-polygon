@@ -5,7 +5,7 @@ Ito Takeru
 
 1.  make-graph.ipynbを用いて、PLYファイルからグラフデータを保存したtxtファイルを得る
 
-    make-graph.ipynbのコード内でPLYファイルのpathを代入する変数と、出力ファイルのpathとファイル名を指定する変数があるので、代入して実行。
+    make-graph.ipynbのコード内でPLYファイルのpathを代入する変数と、出力ファイルのpathとファイル名を指定する変数があるので、代入して実行(google colabでないと動かなさそう)。
 
 
 2. ダイクストラ法のc言語プログラムの第一引数にtxtファイルへのpathを指定して、dijkstra1-path.cを実行して、最短経路を出す。
@@ -33,7 +33,8 @@ Ito Takeru
 
 4. 出力をリスト形式にして、make-graph.ipynb内で実行
 
-    maek-graph.ipynb内にて。
+
+    make-graph.ipynb内にて以下のように変数routeををdijkstra1-path.cの出力に変更する
     ```
     route = [20,26,32,211,209,207,299,300]
     ```

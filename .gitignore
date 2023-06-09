@@ -1,0 +1,5 @@
+.DS_Store
+tex/
+Figs/
+dijkstra/dijkstra1.c
+dijkstra/dijkstra2.c
